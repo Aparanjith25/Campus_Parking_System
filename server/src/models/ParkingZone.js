@@ -15,7 +15,7 @@ const parkingZoneSchema = new mongoose.Schema(
     description: {
       type: String,
       trim: true,
-      default: "",
+      default: " ",
     },
     isActive: {
       type: Boolean,

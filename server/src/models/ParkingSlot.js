@@ -15,7 +15,7 @@ const parkingSlotSchema = new mongoose.Schema(
     vehicleType: {
       type: String,
       enum: ["two-wheeler", "four-wheeler", "visitor", "ev"],
-      default: "four-wheeler",
+      default: "two-wheeler",
     },
     isAvailable: {
       type: Boolean,

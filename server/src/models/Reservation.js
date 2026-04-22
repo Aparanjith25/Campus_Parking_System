@@ -39,6 +39,7 @@ const reservationSchema = new mongoose.Schema(
       type: String,
       required: true,
       unique: true,
+      default: "",
     },
     verifiedAt: {
       type: Date,
