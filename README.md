@@ -196,3 +196,4 @@ This project is ready to deploy on Render or similar Node.js platforms.
 - Reminder and expiry emails are sent by a background alert job using Nodemailer.
 - Email timing is controlled by `EXPIRY_REMINDER_MINUTES` and `ALERT_CHECK_INTERVAL_MS`.
 - QR verification uses the reservation permit code for gate validation workflows.
+Kiran contribution
